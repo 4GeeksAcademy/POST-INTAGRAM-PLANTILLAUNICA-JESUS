@@ -1,0 +1,80 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.main-box {
+    margin-top: 20px;
+    
+}
+
+.box {
+    width: 500px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+/* ------- HEADER ------- */
+.header-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+}
+
+.header-post i {
+    font-size: 32px;
+    margin-right: 5px;
+}
+.fa-brands.fa-html5 {
+    color: orange;
+}
+.usuario-info h2 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.usuario-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #444;
+}
+
+.menu-icon {
+    margin-left: auto;
+    font-size: 20px;
+}
+
+/* ------- IMAGEN ------- */
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+/* ------- INTERACCIONES ------- */
+.interacciones {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    font-size: 25px;
+}
+.bookmark {
+    margin-left: auto;
+}
+
+/* ------- LIKES ------- */
+.likes {
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+/* ------- DESCRIPCION ------- */
+.descripcion {
+    padding: 10px 15px 20px 15px;
+    font-size: 14px;
+}
